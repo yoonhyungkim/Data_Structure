@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/CLION/Lab1/Application/Application.cpp
+Application.h
+C:/CLION/Lab1/Application/Application.h
+
+C:/CLION/Lab1/Application/Application.h
+iostream
+-
+../ItemType/ItemType.h
+C:/CLION/Lab1/ItemType/ItemType.h
+fstream
+-
+../ArrayList/ArrayList.h
+C:/CLION/Lab1/ArrayList/ArrayList.h
+
+C:/CLION/Lab1/ArrayList/ArrayList.cpp
+ArrayList.h
+C:/CLION/Lab1/ArrayList/ArrayList.h
+
+C:/CLION/Lab1/ArrayList/ArrayList.h
+../ItemType/ItemType.h
+C:/CLION/Lab1/ItemType/ItemType.h
+
+C:/CLION/Lab1/ItemType/ItemType.cpp
+ItemType.h
+C:/CLION/Lab1/ItemType/ItemType.h
+
+C:/CLION/Lab1/ItemType/ItemType.h
+fstream
+-
+string
+-
+iostream
+-
+
+C:/CLION/Lab1/main.cpp
+Application/Application.h
+C:/CLION/Lab1/Application/Application.h
+
